@@ -19,7 +19,7 @@ public class App extends Application {
         Parent root = fxmlLoader.load();
         Scene tela = new Scene(root);
 
-        primaryStage.setTitle("AooOOoooaOOOOAaooa");
+        primaryStage.setTitle("AplicaçãoJava-Covid19");
         primaryStage.setScene(tela);
         primaryStage.show();
     }
