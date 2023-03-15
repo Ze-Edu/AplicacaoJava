@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TelaAlertAplicationController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="551.0" layoutX="59.0" layoutY="6.0" opacity="0.51" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/web_telas.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblText" contentDisplay="TOP" graphicTextGap="5.0" layoutX="25.0" layoutY="75.0" prefHeight="230.0" prefWidth="551.0" text="Esse não é um sistema oficial, apenas um projeto de estudante. Serão feitas perguntas sobre você, sobre oque sente e oque deveria ser feito a respeito." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAvancar" layoutX="491.0" layoutY="341.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="87.0" text="Avançar">
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="lblOlaUser" layoutX="268.0" layoutY="30.0" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

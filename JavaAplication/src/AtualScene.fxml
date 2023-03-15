@@ -45,27 +45,27 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
-            <ImageView fitHeight="430.0" fitWidth="731.0" layoutX="-13.0">
+            <ImageView fitHeight="410.0" fitWidth="679.0" layoutY="-1.0" opacity="0.34" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../spread-c.png" />
+                  <Image url="@imgs/banner.png" />
                </image>
             </ImageView>
-            <Label layoutX="261.0" layoutY="28.0" prefHeight="68.0" prefWidth="196.0" text="Covid-19">
+            <Label layoutX="222.0" layoutY="40.0" prefHeight="68.0" prefWidth="196.0" text="Covid-19" textAlignment="CENTER">
                <font>
                   <Font size="46.0" />
                </font>
             </Label>
-            <Label layoutX="285.0" layoutY="86.0" prefHeight="48.0" prefWidth="149.0" text="Aplicação java">
+            <Label layoutX="246.0" layoutY="99.0" prefHeight="48.0" prefWidth="149.0" text="Aplicação java">
                <font>
                   <Font size="23.0" />
                </font>
             </Label>
-            <TextField fx:id="CampoUser" layoutX="265.0" layoutY="207.0" prefHeight="29.0" prefWidth="175.0" />
-            <Label layoutX="265.0" layoutY="186.0" text="Seu nome:">
+            <TextField fx:id="CampoUser" layoutX="233.0" layoutY="200.0" prefHeight="29.0" prefWidth="175.0" />
+            <Label layoutX="233.0" layoutY="171.0" text="Seu nome:">
                <font>
                   <Font size="15.0" />
                </font></Label>
-            <Button fx:id="Btn" layoutX="297.0" layoutY="269.0" mnemonicParsing="false" onAction="#fazerLogin" prefHeight="37.0" prefWidth="124.0" text="Avançar">
+            <Button fx:id="Btn" layoutX="258.0" layoutY="272.0" mnemonicParsing="false" onAction="#fazerLogin" prefHeight="37.0" prefWidth="124.0" text="Avançar">
                <font>
                   <Font size="15.0" />
                </font></Button>
