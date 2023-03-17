@@ -62,6 +62,7 @@
             </Label>
             <TextField fx:id="CampoUser" layoutX="233.0" layoutY="200.0" prefHeight="29.0" prefWidth="175.0" />
             <Label layoutX="233.0" layoutY="171.0" text="Seu nome:">
+            
                <font>
                   <Font size="15.0" />
                </font></Label>
@@ -73,3 +74,4 @@
     </AnchorPane>
   </children>
 </VBox>
+

@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-import org.xml.sax.ext.Locator2Impl;
+import javax.swing.JOptionPane;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -20,6 +20,13 @@ public class LoginController {
 
     @FXML
     void fazerLogin(ActionEvent event) {
+
+        String campoText = CampoUser.getText();
+
+        if(campoText.equals("")){
+            JOptionPane.showMessageDialog(null,"É necessário preencher o nome!");
+        }else{
+
         FXMLLoader fx = new FXMLLoader(LoginController.class.getResource("TelaAlertAplication.fxml"));
         try {
             Scene s = new Scene(fx.load());
@@ -28,9 +35,10 @@ public class LoginController {
             st.setScene(s);
             st.show();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
-
+    }
+    
 }
+
