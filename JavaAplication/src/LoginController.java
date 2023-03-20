@@ -2,11 +2,14 @@ import java.io.IOException;
 
 import javax.swing.JOptionPane;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 
@@ -17,6 +20,20 @@ public class LoginController {
 
     @FXML
     private TextField CampoUser;
+
+    @FXML
+    private Button btnSair;
+
+    @FXML
+    private AnchorPane scenePane;
+
+    Stage stage;
+    @FXML
+    private void SairSistema(ActionEvent event) {
+        stage = (Stage) scenePane.getScene().getWindow();
+        System.out.println("Sucesso ao sair!");
+        stage.close();
+    }
 
     @FXML
     void fazerLogin(ActionEvent event) {
@@ -38,6 +55,7 @@ public class LoginController {
             e.printStackTrace();
         }
     }
+    
     }
     
 }

@@ -43,7 +43,7 @@
 
 <VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
   <children>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+    <AnchorPane fx:id="scenePane" maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
             <ImageView fitHeight="410.0" fitWidth="679.0" layoutY="-1.0" opacity="0.34" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -70,8 +70,12 @@
                <font>
                   <Font size="15.0" />
                </font></Button>
+            <Button fx:id="btnSair" layoutX="548.0" layoutY="368.0" mnemonicParsing="false" onAction="#SairSistema" prefHeight="29.0" prefWidth="89.0" text="Sair">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
       </children>
     </AnchorPane>
   </children>
 </VBox>
-

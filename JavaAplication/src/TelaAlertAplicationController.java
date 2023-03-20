@@ -18,9 +18,10 @@ public class TelaAlertAplicationController {
 
     @FXML
     private Label lblText;
-
+    
     @FXML
     void AvancarSintomas(ActionEvent event) {
+
         FXMLLoader fx = new FXMLLoader(LoginController.class.getResource("TelaSintomas.fxml"));
         try {
             Scene s = new Scene(fx.load());
