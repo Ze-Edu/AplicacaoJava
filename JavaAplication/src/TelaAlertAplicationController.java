@@ -1,4 +1,7 @@
 import java.io.IOException;
+
+import javax.swing.JOptionPane;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -18,6 +21,7 @@ public class TelaAlertAplicationController {
 
     @FXML
     private Label lblText;
+
     
     @FXML
     void AvancarSintomas(ActionEvent event) {
@@ -26,9 +30,12 @@ public class TelaAlertAplicationController {
         try {
             Scene s = new Scene(fx.load());
             Stage st = new Stage();
-            st.setTitle("AplicaçãoJava");
+            st.setTitle("AplicaçãoJava-Covid19");
             st.setScene(s);
             st.show();
+
+
+            
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

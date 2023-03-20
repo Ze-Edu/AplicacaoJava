@@ -1,8 +1,9 @@
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 
-public class TelaSintomas {
+public class TelaSintomasController {
 
     @FXML
     private Button btnAva;
@@ -33,5 +34,10 @@ public class TelaSintomas {
 
     @FXML
     private CheckBox check9;
+
+    @FXML
+    void btnSintomas(ActionEvent event) {
+        
+    }
 
 }

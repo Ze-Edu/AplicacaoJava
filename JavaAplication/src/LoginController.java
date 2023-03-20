@@ -19,7 +19,7 @@ public class LoginController {
     private Button Btn;
 
     @FXML
-    private TextField CampoUser;
+    public TextField CampoUser;
 
     @FXML
     private Button btnSair;
@@ -48,12 +48,16 @@ public class LoginController {
         try {
             Scene s = new Scene(fx.load());
             Stage st = new Stage();
-            st.setTitle("AplicaçãoJava");
+            st.setTitle("AplicaçãoJava-Covid19");
             st.setScene(s);
             st.show();
+
+
+
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
     
     }

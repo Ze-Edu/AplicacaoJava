@@ -4,7 +4,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javax.swing.JFrame;
 
 public class App extends Application{
 
@@ -16,9 +15,12 @@ public class App extends Application{
     
     @Override
     public void start(Stage primaryStage) throws Exception { 
-        Parent root = FXMLLoader.load(getClass().getResource("AtualScene.fxml"));
-        Scene tela = new Scene(root);
+        FXMLLoader floader = new FXMLLoader(getClass().getResource("AtualScene.fxml"));
+        Parent root = (Parent) floader.load();
 
+        
+
+        Scene tela = new Scene(root);
         primaryStage.setTitle("AplicaçãoJava-Covid19");
         primaryStage.setScene(tela);
         primaryStage.show();

@@ -25,9 +25,9 @@
             <Cursor fx:constant="CLOSED_HAND" />
          </cursor>
       </Button>
-      <Label fx:id="lblOlaUser" layoutX="268.0" layoutY="30.0" textAlignment="CENTER">
+      <Label fx:id="lblOlaUser" layoutX="274.0" layoutY="54.0" prefHeight="43.0" prefWidth="46.0" text="Olá" textAlignment="CENTER">
          <font>
-            <Font size="25.0" />
+            <Font size="29.0" />
          </font>
       </Label>
    </children>
