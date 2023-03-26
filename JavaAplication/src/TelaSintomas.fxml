@@ -8,50 +8,49 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TelaSintomasController">
    <children>
-      <CheckBox layoutX="111.0" layoutY="120.0" mnemonicParsing="false" text="Dor de cabeça">
+      <CheckBox fx:id="check1" layoutX="111.0" layoutY="120.0" mnemonicParsing="false" onAction="#Action" text="Dor de cabeça">
          <font>
             <Font size="15.0" />
          </font>
       </CheckBox>
-      <CheckBox layoutX="111.0" layoutY="201.0" mnemonicParsing="false" text="Dor de garganta">
+      <CheckBox fx:id="check3" layoutX="111.0" layoutY="201.0" mnemonicParsing="false" onAction="#Action" text="Dor de garganta">
          <font>
             <Font size="15.0" />
          </font>
       </CheckBox>
-      <CheckBox layoutX="111.0" layoutY="243.0" mnemonicParsing="false" text="Tosse">
+      <CheckBox fx:id="check4" layoutX="111.0" layoutY="243.0" mnemonicParsing="false" onAction="#Action" text="Tosse">
          <font>
             <Font size="15.0" />
          </font>
       </CheckBox>
-      <CheckBox layoutX="111.0" layoutY="161.0" mnemonicParsing="false" text="Calafrios">
+      <CheckBox fx:id="check2" layoutX="111.0" layoutY="161.0" mnemonicParsing="false" onAction="#Action" text="Calafrios">
          <font>
             <Font size="15.0" />
          </font>
       </CheckBox>
-      <CheckBox layoutX="372.0" layoutY="254.0" mnemonicParsing="false" text="Coriza">
+      <CheckBox fx:id="check9" layoutX="372.0" layoutY="254.0" mnemonicParsing="false" onAction="#Action" text="Coriza">
          <font>
             <Font size="15.0" />
          </font>
       </CheckBox>
-      <CheckBox layoutX="111.0" layoutY="283.0" mnemonicParsing="false" text="Perda de olfato e ou paladar">
+      <CheckBox fx:id="check5" layoutX="111.0" layoutY="283.0" mnemonicParsing="false" onAction="#Action" text="Perda de olfato e ou paladar">
          <font>
             <Font size="15.0" />
          </font>
       </CheckBox>
-      <CheckBox layoutX="373.0" layoutY="131.0" mnemonicParsing="false" text="Diarreia">
+      <CheckBox fx:id="check6" layoutX="373.0" layoutY="131.0" mnemonicParsing="false" onAction="#Action" text="Diarreia">
          <font>
             <Font size="15.0" />
          </font>
       </CheckBox>
-      <CheckBox layoutX="373.0" layoutY="172.0" mnemonicParsing="false" text="Vômitos">
+      <CheckBox fx:id="check7" layoutX="373.0" layoutY="172.0" mnemonicParsing="false" onAction="#Action" text="Vômitos">
          <font>
             <Font size="15.0" />
          </font>
       </CheckBox>
-      <CheckBox layoutX="372.0" layoutY="212.0" mnemonicParsing="false" text="Náuseas">
+      <CheckBox fx:id="check8" layoutX="372.0" layoutY="212.0" mnemonicParsing="false" onAction="#Action" text="Náuseas">
          <font>
             <Font size="15.0" />
          </font>
@@ -66,7 +65,7 @@
             <Image url="@imgs/2877524.png" />
          </image>
       </ImageView>
-      <Button fx:id="btnAva" layoutX="254.0" layoutY="333.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="114.0" text="Avançar">
+      <Button fx:id="btnAva" layoutX="254.0" layoutY="333.0" mnemonicParsing="false" onAction="#btnSintomas" prefHeight="41.0" prefWidth="114.0" text="Avançar">
          <font>
             <Font size="15.0" />
          </font>
