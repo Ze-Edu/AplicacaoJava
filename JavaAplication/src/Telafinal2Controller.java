@@ -21,7 +21,7 @@ public class Telafinal2Controller {
     @FXML
     void SairAplicacao(ActionEvent event) {
         stage = (Stage) pane.getScene().getWindow();
-        System.out.println("Sucesso ao sair!");
+        System.out.println(" Sucesso ao sair! ");
         stage.close();
     }
 
