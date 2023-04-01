@@ -11,10 +11,11 @@
    <children>
       <ImageView fitHeight="333.0" fitWidth="281.0" layoutX="160.0" layoutY="20.0" opacity="0.51">
          <image>
-            <Image url="@imgs/gripe.png" />
+            <Image url="@../../../gripe.png" />
          </image>
       </ImageView>
-      <Button fx:id="BtnSairapp" layoutX="213.0" layoutY="257.0" mnemonicParsing="false" onAction="#SairApp" prefHeight="44.0" prefWidth="172.0" text="Sair aplicação" />
+      <Button fx:id="btnVoltarIni" layoutX="52.0" layoutY="275.0" mnemonicParsing="false" onAction="#VoltarAoIni" prefHeight="33.0" prefWidth="133.0" text="Voltar ao inicio" />
+      <Button fx:id="BtnSairapp" layoutX="432.0" layoutY="275.0" mnemonicParsing="false" onAction="#SairApp" prefHeight="33.0" prefWidth="133.0" text="Sair aplicação" />
       <Label layoutX="35.0" layoutY="102.0" text="Devido aos sintomas que você marcou, é importante que tente">
          <font>
             <Font name="System Bold" size="18.0" />

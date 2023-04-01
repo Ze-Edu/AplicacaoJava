@@ -7,14 +7,15 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:id="Penene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Telafinal2Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Telafinal2Controller">
    <children>
       <ImageView fitHeight="492.0" fitWidth="301.0" layoutX="149.0" layoutY="-45.0" opacity="0.51">
          <image>
-            <Image url="@imgs/banner-moc-1-1.png" />
+            <Image url="@../../../banner-moc-1-1.png" />
          </image>
       </ImageView>
-      <Button fx:id="BtnSairApp" layoutX="223.0" layoutY="314.0" mnemonicParsing="false" onAction="#SairAplicacao" prefHeight="44.0" prefWidth="153.0" text="Sair aplicação" />
+      <Button fx:id="BtnSairApp" layoutX="450.0" layoutY="284.0" mnemonicParsing="false" onAction="#SairAplicacao" prefHeight="33.0" prefWidth="133.0" text="Sair aplicação" />
+      <Button fx:id="BtnVoltar" layoutX="35.0" layoutY="284.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="133.0" text="Voltar ao inicio" />
       <Label layoutX="197.0" layoutY="23.0" text="Principio de Codiv" textFill="RED">
          <font>
             <Font name="System Bold" size="24.0" />

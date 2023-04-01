@@ -45,14 +45,20 @@ public class LoginController {
         }else{
 
         FXMLLoader fx = new FXMLLoader(LoginController.class.getResource("TelaAlertAplication.fxml"));
+
         try {
+            stage = (Stage) scenePane.getScene().getWindow();
+            System.out.println("Sucesso ao passar de tela!");
+            stage.close();
+
             Scene s = new Scene(fx.load());
             Stage st = new Stage();
             st.setTitle("AplicaçãoJava-Covid19");
             st.setScene(s);
             st.show();
-
-
+            
+            
+            
 
         } catch (IOException e) {
             e.printStackTrace();
