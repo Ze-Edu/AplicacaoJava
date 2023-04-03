@@ -15,7 +15,7 @@
             <Image url="@imgs/web_telas.png" />
          </image>
       </ImageView>
-      <Label fx:id="lblText" contentDisplay="TOP" graphicTextGap="5.0" layoutX="25.0" layoutY="75.0" prefHeight="230.0" prefWidth="551.0" text="Esse não é um sistema oficial, apenas um projeto de estudante. Onde será sugerido você ir a um PS(Pronto socorro) ou apenas repouso." textAlignment="CENTER" wrapText="true">
+      <Label fx:id="lblText" contentDisplay="TOP" graphicTextGap="5.0" layoutX="25.0" layoutY="75.0" prefHeight="230.0" prefWidth="551.0" text="Esse não é um sistema oficial, apenas um projeto de estudante. Onde será sugerido você ir a um PS(Pronto socorro) ou uma consulta médica." textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="25.0" />
          </font>
